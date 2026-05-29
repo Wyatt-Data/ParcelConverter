@@ -1,6 +1,13 @@
 import streamlit as st
 import re
 
+st.set_page_config(
+    page_title="Parcel Converter",
+    page_icon="🌸",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
+
 st.markdown("""
 <style>
 [data-testid="stAppViewContainer"] > .main {
